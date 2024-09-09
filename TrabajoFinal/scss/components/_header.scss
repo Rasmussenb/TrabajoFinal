@@ -1,0 +1,49 @@
+.logo { 
+    height: 60px;
+    width: 60px;
+    margin-left: 40px;
+    margin-top: -10px;
+    justify-content: center;
+    align-self: center;
+    align-content: center;
+}   
+
+header{
+    display: flex;
+    background-color: black;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    top: 200px;
+    justify-content: center;
+    height: auto;
+}
+
+.navbar {
+    display:flex;
+    margin: -165px 0px 60px 0px;
+    height: 20px;
+    width: 400px;
+    border: 20px solid wheat;
+    background-color: wheat;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    justify-content:center;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+        color: $azulmarino;
+        font-size: 21px;
+    }
+    
+}
+

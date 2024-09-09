@@ -1,0 +1,142 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+h2 {
+    color: black;
+    font-size: 20px;
+    margin: 60px;
+    font-family: 'personal';
+    font-style: normal;
+    font-weight: initial;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+h3 {
+    color: black;
+    font-size: 20px;
+    margin: 60px;
+    font-family: 'personal';
+    font-style: normal;
+    font-weight: initial;
+    text-align: justify;
+    border-radius: 20px;
+}
+
+h4 {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.404);
+    font-size: 20px;
+    margin-left: 500px;
+    margin-right: 520px;
+    font-family: 'personal';
+    font-style: normal;
+    font-weight: initial;
+    text-align: center;
+    border-radius: 20px;
+}
+
+nav{
+    display: flex;
+    position: sticky;
+    top: 200px;
+    justify-content: center;
+    height: auto;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+iframe {
+    height: 400px;
+    width: 712px;
+    margin: 50px 0px;
+    border: 0px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(177, 32, 32, 0.8);
+    overflow: hidden;
+}
+
+.iframe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotoContainer{
+    background-image:radial-gradient(ellipse 500px 200px, rgb(0, 17, 255), rgb(0, 162, 255));
+    display: grid;
+    margin: 30px 0px;
+    grid-template-columns: repeat(4,1fr);   
+    grid-template-rows: 80% 20%;
+    height: 200px;
+    width: 100%;
+}
+
+.foto{
+    height:100%;
+    width: auto;
+}
+
+.fotodiv1{
+    transition: 0.4s;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotodiv2{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotodiv3{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotodiv4{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.grid2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.grid3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.grid4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
