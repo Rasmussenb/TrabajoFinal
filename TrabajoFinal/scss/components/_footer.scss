@@ -26,7 +26,11 @@
     height: 50px;
     width: auto;
     margin: 0px 20px;
-    transition: height 1s;
+    transition:  0.1s;
+
+    &:hover{
+        height: 60px;
+        }
 }
 
 .av {
@@ -38,6 +42,6 @@
     color:white;  
 }
 
-footer{
-    background-color: black;
+footer {
+    background-image: $backgroung-gradient2;
 }
